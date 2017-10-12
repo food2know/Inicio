@@ -1,0 +1,187 @@
+        .margin-title{
+        	margin-bottom: 30px;
+        }
+
+        div.row{
+        	display: block;
+        	margin: 0px;
+        }
+
+        .center-flex{
+    		display: flex; 
+    		align-items: center;
+    		justify-content: center;
+    	}
+
+    	.row-flex{
+    		display: flex; 
+    		align-items: center;
+    		justify-content: center;
+    		flex-direction: column;
+    	}
+
+    	div#inicio{
+    		height: 100vh;
+    		background-image: url("../img/landing.jpg");
+    		background-size: 100% 100%;
+    		background-attachment: fixed;
+    		z-index: 0;
+    	}
+
+    	div#landing{
+    		display: flex;
+            justify-content: center;
+            align-items: center;
+    		position: absolute;
+    		width: 50%;
+    		height: 100%;
+            background-color: rgba(76,175,80,0.8);
+            color: white;
+    	}
+
+    	h1{
+            font-size: 70px;
+    	}
+
+    	h2{
+            font-size: 50px;
+    	}
+
+        h3{
+            font-size: 20px;
+    	}
+
+    	div#beneficios{
+    		background-image: url("../img/natural.jpg");
+    		background-size: 100% 100%;
+    		background-attachment: fixed;
+            padding-right:15px;
+        	padding-left:15px;
+        	margin-right:auto;
+        	margin-left:auto;
+        	padding-top: 40px;
+    		padding-bottom: 40px;
+    	}
+        
+        div#beneficios h2{
+        	color: white;
+        }
+
+    	div#beneficios div#landing-blur{
+    		position: absolute;
+            background-color: rgba(0,50,0,0.7);
+    		height: 100%;
+    		width: 100%;
+    	}
+
+    	div#beneficios div.info{
+    		background-color: white;
+    		height: 300px;
+    		width: 300px;
+    		border-radius: 50%;
+    		border: 5px solid green;
+    		margin-top: 10px;
+    		margin-bottom: 10px;
+    		padding: 20px;
+    	}
+
+    	div#beneficios div.info img{
+    		height: 70px;
+    		width: 70px;
+    		margin-bottom: 20px;
+    	}
+
+    	div#beneficios div.info p{
+    		text-align: center;
+    		font-size: 16px;
+    		font-weight: bold;
+    	}
+
+    	div#conocenos{
+    		background-color: #dbfad1;
+            padding-right:150px;
+        	padding-left:150px;
+        	margin-right:auto;
+        	margin-left:auto;
+        	padding-top: 60px;
+    		padding-bottom: 60px;
+    	}
+
+    	div#conocenos div.info-per{
+    		background-image: url("../img/profile.png");
+    		background-size: 100% 100%;
+    		height: 260px;
+    		width: 220px;
+    		border-radius: 4px;
+    		margin-top: 10px;
+    		margin-bottom: 10px;
+    		cursor: pointer;
+    	}
+
+    	 div#conocenos div.info-per div.info-per-text{
+    	 	opacity: 0;
+            transition: background-color .5s;
+            color: transparent;
+    	}
+
+        div#conocenos div.info-per:hover div.info-per-text{
+        	background-color: rgba(0,0,0,0.7);
+        	opacity: 1;
+        	display: flex;
+        	position: absolute; 
+    		height: 260px;
+    		width: 220px;
+    		color: white;
+    		font-size: 16px;
+    		font-weight: bold;
+    	}
+        
+        footer{
+        	background-color: #46a049;
+        	width: 100%;
+        	height: 80px;
+        	z-index: 10;
+        }
+
+        @media(min-width: 900px)
+        {
+            div#landing{
+    	        position: absolute;
+    	        left: 0;
+    	    }
+        }
+
+        @media(max-width: 1100px)
+    	{
+    		h1{
+                font-size: 60px;
+    	    }
+
+    	    h2{
+    	    	font-size: 30px;
+    	    }
+
+            h3{
+                font-size: 20px;
+    	    }
+    	}
+
+    	@media(max-width: 900px)
+    	{
+    	    div#landing{
+    	    	width: 100%;
+    	    	height: 100%;
+    	    }
+
+    		h1{
+                font-size: 40px;
+    	    }
+
+    	    h2{
+    	    	font-size: 30px;
+    	    }
+
+            h3{
+                font-size: 20px;
+    	    }
+    	}
