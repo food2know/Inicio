@@ -11,17 +11,17 @@ $(document).ready(function(){
         var conocenos = $("#conocenos").offset();
         conocenos = conocenos.top;
  
-        if((windowHeight+100) >= beneficios && comp == true){
-            $(".info").each(function(index){
-    
+        if((windowHeight+300) >= beneficios && comp == true){
+            $(".info").each(function(index){   
                 $(this).delay(500*index).animate({"position":"static", "left":"0px", "opacity":"1"},"slow");
                 comp = false;
             });
         }
 
-        if((windowHeight+100) >= conocenos && comp2 == true){
+        if((windowHeight+300) >= conocenos && comp2 == true){
             $(".info-per").each(function(index){
                 $(this).delay(500*index).animate({"position":"static", "left":"0px", "opacity":"1"},"slow");
+                comp2 = false;
             });
         }
     });
