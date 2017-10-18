@@ -3,6 +3,7 @@
 <head>
 	<title>Food 2 know</title>
 	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/navbar.css">
@@ -13,8 +14,8 @@
     <header>
         <nav id="menu">
             <div id="log">
-                <!--<img src="img/prueba.png">-->
-                <h3>Food 2 know</h3>
+                <!--<img src="img/logo.png">-->
+                <h4>Food 2 know</h4>
             </div>
             <div id="button">
                 <input id="button-menu" type="checkbox" name="">
@@ -23,42 +24,62 @@
             <div id="center">
             	<ul>
             		<li id="p"><a href="#inicio">Inicio</a></li>
+                    <li><a href="#descripcion">Descripcion</a></li>
             		<li><a href="#beneficios">Beneficios</a></li>
             	    <li><a href="#conocenos">Conocenos</a></li>
-            	    <li><a href="#conocenos">Contacto</a></li>
+            	    <li><a href="#contacto">Contacto</a></li>
             	</ul>
             </div>
         </nav>
     </header>
     <div class="row">
-        <div id="inicio" class="height-size col-xs-12 col-lg-12 center-flex">
-            <div id="landing">
-            	<div id="info-text center-flex">
-            		<h1 class="center-flex">FOOD 2 KNOW</h1>
-            		<h3 class="center-flex">Una forma saludable de vivir</h3>
-            	</div>
+        <div id="inicio" class="height-size col-xs-12 col-lg-12 center-flex-g">
+         <div class="row">
+                <div class="col-md-6 col-lg-6">
+                    <div id="info-text" class="row-flex-center">
+                        <h1>FOOD 2 KNOW</h1>
+                        <h4>Una app para vivir de forma saludable</h4>
+                        <img id="playstore" src="img/playstore.png">
+                    </div>
+                </div>    
+                <div class="col-md-6 col-lg-5 center-flex">
+                    <img id="app" src="img/app.png">
+                </div>  
             </div>
         </div>
-        <div id="beneficios" class="col-xs-12 col-lg-12 center-flex">
+        <div id="descripcion" class="height-size col-xs-12 col-lg-12 center-flex-g">
+            <div class="row">
+                <div class="col-lg-12 center-flex margin-title">
+                     <h2>¿Que es FOOD 2 KNOW?</h2>
+                </div>    
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-8">
+                    <h5>Es una plataforma digital para el cuidado de la salud evaluando los  hábitos alimenticios del cliente, en la cual una calculadora evaluara su dieta indicándole si es saludable o no. Está enfocada principalmente a una aplicación móvil que dará información al usuario de forma gratuita y rápida sobre su dieta y/o productos que puede consumir dejándole como beneficio cuidar su salud utilizando poco tiempo. </h5>
+                </div>  
+            </div>
+        </div>
+        <div id="beneficios" class="col-xs-12 col-lg-12 center-flex-g">
            <div id="landing-blur"></div>
            <div class="row">
                 <div class="col-lg-12 center-flex margin-title">
                      <h2>Beneficios de nuestra app</h2>
                 </div>
-                <div class="col-xs-12 col-md-4  col-lg-4 center-flex">
-                    <div class="info row-flex">
+                <div class="col-xs-12 col-md-4  col-lg-4 center-flex-g">
+                    <div class="info row-flex-center">
                         <img src="img/003-apple.png">
                         <p>Conoce la informacion nutricional de cualquier producto</p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-4 center-flex">
-                    <div class="info row-flex">
+                <div class="col-xs-12 col-md-4 col-lg-4 center-flex-g">
+                    <div class="info row-flex-center">
                         <img src="img/002-calories.png">
                     	<p>Sube tu dieta y recibe retroalimentacion de la misma</p>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-4 center-flex">  
-                    <div class="info row-flex">
+                <div class="col-xs-12 col-md-4 col-lg-4 center-flex-g">  
+                    <div class="info row-flex-center">
                         <img src="img/001-cardiogram.png">
                 	    <p>Recibe recomendaciones de nutriologos especializados</p>
                     </div>
@@ -70,52 +91,119 @@
                 <div class="col-lg-12 center-flex margin-title">
                      <h2>Creadores</h2>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex-center">
                     <div class="info-per center-flex">
-                       <div class="info-per-text row-flex">
-                            <p>Tel: 13383185</p>
-                          	<p>ejemplo@outlook.com</p>    
-                       </div>
                     </div>
-                    <h4>Aldo Molina</h4>
+                    <h5>Aldo Molina</h5>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex-center">
                     <div class="info-per center-flex">
-                        <div class="info-per-text row-flex">
-                        	<p>Tel: 133831485</p>
-                          	<p>ejemplo@outlook.com</p>   
-                        </div>
                     </div>
-                    <h4>Jose Hernandez</h4>
+                    <h5>Jose Hernandez</h5>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex-center">
                     <div class="info-per center-flex">
-                    	<div class="info-per-text row-flex">
-                    		<p>Tel: 13383185</p>
-                          	<p>ejemplo@outlook.com</p>   
-                    	</div>
                     </div>
-                    <h4>Luis Nuñez</h4>
+                    <h5>Luis Nuñez</h5>
                 </div>
-                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex">  
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 center-flex row-flex-center">  
                     <div class="info-per center-flex">
-                	    <div class="info-per-text row-flex">
-                	    	<p>Tel: 13383185</p>
-                          	<p>ejemplo@outlook.com</p>   
-                	    </div>
                     </div>
-                    <h4>Karla Valdez</h4>
+                    <h5>Karla Valdez</h5>
                 </div>
+            </div>
+        </div>
+         <div id="contacto" class="col-xs-12 col-lg-12">
+           <div class="row">
+                <div class="col-lg-12 center-flex margin-title">
+                    <h2>Contacto</h2>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-offset-2 col-lg-3">
+                    <div>
+                        <div class="icon"><img src="img/001-facebook-logo-button.png"><h5><b>facebook.com/food2knowapp</b></h5></div>
+                        <div class="icon"><img src="img/002-google-plus.png"><h5><b>food2knowapp@gmail.com</b></h5></div>
+                        <div class="icon"><img src="img/003-twitter-logo-button.png"><h5><b>twitter.com/food2knowapp</b></h5></div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 row-flex-center">  
+                    <form method="post">
+                        <p><input type="text" name="" class="validate" placeholder="Nombre"></p> 
+                        <p><input type="text" name="" class="validate" placeholder="Correo"></p> 
+                        <p><input type="text" name="" class="validate" placeholder="Asunto"></p>
+                        <p><textarea class="validate" placeholder="Mensaje"></textarea></p> 
+                        <button id="enviar">Enviar</button>
+                    </form>
+                </div>    
+
             </div>
         </div>
     </div>
     
-   <footer></footer>
+    <footer class="center-flex"><div><h5>®food2knowapp 2017</h5></div></footer>
 
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/navbar.js"></script>
     <script type="text/javascript" src="js/smoothscrool.js"></script>
     <script type="text/javascript" src="js/animations.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            
+            $(".validate").blur(function(){
+                validacionBlur(this);
+            });
+
+            $("#enviar").click(function(e){
+                var bool = validacion();
+                if(!bool)
+                {
+                    e.preventDefault();
+                }
+            });
+
+            function validacion(){
+                var failed = true;
+                $(".validate").each(function(){
+                    var comp = $(this).val();
+                    if(comp=="")
+                    {
+                        $(this).css({"border-color":"red"});
+                        $(this).attr({"placeholder":"campo requerido"});
+                        failed=false;
+                    } else {
+                        $(this).css({"border-color":"green"});
+                    }
+                });
+
+                if (failed) 
+                {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            function validacionBlur(op){
+                var failed = true;
+                var comp = $(op).val();
+                if(comp=="")
+                {
+                    $(op).css({"border-color":"red"});
+                    $(op).attr({"placeholder":"campo requerido"});
+                    failed=false;
+                } else {
+                    $(op).css({"border-color":"green"});
+                }
+            }
+
+            /*function a(){
+                var tam = $(window).width();
+                if(tam>780)
+                {
+                    $("#contacto div").
+                }
+            }*/
+        });
+    </script>
 </body>
 </html>
